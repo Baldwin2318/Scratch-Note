@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		551F23CE2B37F7CC00B71859 /* Scratch_NoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F23CD2B37F7CC00B71859 /* Scratch_NoteApp.swift */; };
+		551F23D02B37F7CC00B71859 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F23CF2B37F7CC00B71859 /* ContentView.swift */; };
+		551F23D22B37F7CE00B71859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551F23D12B37F7CE00B71859 /* Assets.xcassets */; };
+		551F23D52B37F7CE00B71859 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551F23D42B37F7CE00B71859 /* Preview Assets.xcassets */; };
+		551F23DF2B37F7CE00B71859 /* Scratch_NoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F23DE2B37F7CE00B71859 /* Scratch_NoteTests.swift */; };
+		551F23E92B37F7CE00B71859 /* Scratch_NoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F23E82B37F7CE00B71859 /* Scratch_NoteUITests.swift */; };
+		551F23EB2B37F7CE00B71859 /* Scratch_NoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F23EA2B37F7CE00B71859 /* Scratch_NoteUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		551F23DB2B37F7CE00B71859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551F23C22B37F7CC00B71859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 551F23C92B37F7CC00B71859;
+			remoteInfo = "Scratch Note";
+		};
+		551F23E52B37F7CE00B71859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551F23C22B37F7CC00B71859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 551F23C92B37F7CC00B71859;
+			remoteInfo = "Scratch Note";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		551F23CA2B37F7CC00B71859 /* Scratch Note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scratch Note.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		551F23CD2B37F7CC00B71859 /* Scratch_NoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scratch_NoteApp.swift; sourceTree = "<group>"; };
+		551F23CF2B37F7CC00B71859 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		551F23D12B37F7CE00B71859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		551F23D42B37F7CE00B71859 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		551F23DA2B37F7CE00B71859 /* Scratch NoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scratch NoteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		551F23DE2B37F7CE00B71859 /* Scratch_NoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scratch_NoteTests.swift; sourceTree = "<group>"; };
+		551F23E42B37F7CE00B71859 /* Scratch NoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scratch NoteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		551F23E82B37F7CE00B71859 /* Scratch_NoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scratch_NoteUITests.swift; sourceTree = "<group>"; };
+		551F23EA2B37F7CE00B71859 /* Scratch_NoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scratch_NoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		551F23C72B37F7CC00B71859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551F23D72B37F7CE00B71859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551F23E12B37F7CE00B71859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		551F23C12B37F7CC00B71859 = {
+			isa = PBXGroup;
+			children = (
+				551F23CC2B37F7CC00B71859 /* Scratch Note */,
+				551F23DD2B37F7CE00B71859 /* Scratch NoteTests */,
+				551F23E72B37F7CE00B71859 /* Scratch NoteUITests */,
+				551F23CB2B37F7CC00B71859 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		551F23CB2B37F7CC00B71859 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				551F23CA2B37F7CC00B71859 /* Scratch Note.app */,
+				551F23DA2B37F7CE00B71859 /* Scratch NoteTests.xctest */,
+				551F23E42B37F7CE00B71859 /* Scratch NoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		551F23CC2B37F7CC00B71859 /* Scratch Note */ = {
+			isa = PBXGroup;
+			children = (
+				551F23CD2B37F7CC00B71859 /* Scratch_NoteApp.swift */,
+				551F23CF2B37F7CC00B71859 /* ContentView.swift */,
+				551F23D12B37F7CE00B71859 /* Assets.xcassets */,
+				551F23D32B37F7CE00B71859 /* Preview Content */,
+			);
+			path = "Scratch Note";
+			sourceTree = "<group>";
+		};
+		551F23D32B37F7CE00B71859 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				551F23D42B37F7CE00B71859 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		551F23DD2B37F7CE00B71859 /* Scratch NoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				551F23DE2B37F7CE00B71859 /* Scratch_NoteTests.swift */,
+			);
+			path = "Scratch NoteTests";
+			sourceTree = "<group>";
+		};
+		551F23E72B37F7CE00B71859 /* Scratch NoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				551F23E82B37F7CE00B71859 /* Scratch_NoteUITests.swift */,
+				551F23EA2B37F7CE00B71859 /* Scratch_NoteUITestsLaunchTests.swift */,
+			);
+			path = "Scratch NoteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		551F23C92B37F7CC00B71859 /* Scratch Note */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551F23EE2B37F7CE00B71859 /* Build configuration list for PBXNativeTarget "Scratch Note" */;
+			buildPhases = (
+				551F23C62B37F7CC00B71859 /* Sources */,
+				551F23C72B37F7CC00B71859 /* Frameworks */,
+				551F23C82B37F7CC00B71859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scratch Note";
+			productName = "Scratch Note";
+			productReference = 551F23CA2B37F7CC00B71859 /* Scratch Note.app */;
+			productType = "com.apple.product-type.application";
+		};
+		551F23D92B37F7CE00B71859 /* Scratch NoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551F23F12B37F7CE00B71859 /* Build configuration list for PBXNativeTarget "Scratch NoteTests" */;
+			buildPhases = (
+				551F23D62B37F7CE00B71859 /* Sources */,
+				551F23D72B37F7CE00B71859 /* Frameworks */,
+				551F23D82B37F7CE00B71859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				551F23DC2B37F7CE00B71859 /* PBXTargetDependency */,
+			);
+			name = "Scratch NoteTests";
+			productName = "Scratch NoteTests";
+			productReference = 551F23DA2B37F7CE00B71859 /* Scratch NoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		551F23E32B37F7CE00B71859 /* Scratch NoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551F23F42B37F7CE00B71859 /* Build configuration list for PBXNativeTarget "Scratch NoteUITests" */;
+			buildPhases = (
+				551F23E02B37F7CE00B71859 /* Sources */,
+				551F23E12B37F7CE00B71859 /* Frameworks */,
+				551F23E22B37F7CE00B71859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				551F23E62B37F7CE00B71859 /* PBXTargetDependency */,
+			);
+			name = "Scratch NoteUITests";
+			productName = "Scratch NoteUITests";
+			productReference = 551F23E42B37F7CE00B71859 /* Scratch NoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		551F23C22B37F7CC00B71859 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					551F23C92B37F7CC00B71859 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					551F23D92B37F7CE00B71859 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 551F23C92B37F7CC00B71859;
+					};
+					551F23E32B37F7CE00B71859 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 551F23C92B37F7CC00B71859;
+					};
+				};
+			};
+			buildConfigurationList = 551F23C52B37F7CC00B71859 /* Build configuration list for PBXProject "Scratch Note" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 551F23C12B37F7CC00B71859;
+			productRefGroup = 551F23CB2B37F7CC00B71859 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				551F23C92B37F7CC00B71859 /* Scratch Note */,
+				551F23D92B37F7CE00B71859 /* Scratch NoteTests */,
+				551F23E32B37F7CE00B71859 /* Scratch NoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		551F23C82B37F7CC00B71859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551F23D52B37F7CE00B71859 /* Preview Assets.xcassets in Resources */,
+				551F23D22B37F7CE00B71859 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551F23D82B37F7CE00B71859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551F23E22B37F7CE00B71859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		551F23C62B37F7CC00B71859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551F23D02B37F7CC00B71859 /* ContentView.swift in Sources */,
+				551F23CE2B37F7CC00B71859 /* Scratch_NoteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551F23D62B37F7CE00B71859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551F23DF2B37F7CE00B71859 /* Scratch_NoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551F23E02B37F7CE00B71859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551F23E92B37F7CE00B71859 /* Scratch_NoteUITests.swift in Sources */,
+				551F23EB2B37F7CE00B71859 /* Scratch_NoteUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		551F23DC2B37F7CE00B71859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 551F23C92B37F7CC00B71859 /* Scratch Note */;
+			targetProxy = 551F23DB2B37F7CE00B71859 /* PBXContainerItemProxy */;
+		};
+		551F23E62B37F7CE00B71859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 551F23C92B37F7CC00B71859 /* Scratch Note */;
+			targetProxy = 551F23E52B37F7CE00B71859 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		551F23EC2B37F7CE00B71859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		551F23ED2B37F7CE00B71859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		551F23EF2B37F7CE00B71859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scratch Note/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Baldwin.Scratch-Note";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		551F23F02B37F7CE00B71859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scratch Note/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Baldwin.Scratch-Note";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		551F23F22B37F7CE00B71859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Baldwin.Scratch-NoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scratch Note.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scratch Note";
+			};
+			name = Debug;
+		};
+		551F23F32B37F7CE00B71859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Baldwin.Scratch-NoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scratch Note.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scratch Note";
+			};
+			name = Release;
+		};
+		551F23F52B37F7CE00B71859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Baldwin.Scratch-NoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Scratch Note";
+			};
+			name = Debug;
+		};
+		551F23F62B37F7CE00B71859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Baldwin.Scratch-NoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Scratch Note";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		551F23C52B37F7CC00B71859 /* Build configuration list for PBXProject "Scratch Note" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551F23EC2B37F7CE00B71859 /* Debug */,
+				551F23ED2B37F7CE00B71859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551F23EE2B37F7CE00B71859 /* Build configuration list for PBXNativeTarget "Scratch Note" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551F23EF2B37F7CE00B71859 /* Debug */,
+				551F23F02B37F7CE00B71859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551F23F12B37F7CE00B71859 /* Build configuration list for PBXNativeTarget "Scratch NoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551F23F22B37F7CE00B71859 /* Debug */,
+				551F23F32B37F7CE00B71859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551F23F42B37F7CE00B71859 /* Build configuration list for PBXNativeTarget "Scratch NoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551F23F52B37F7CE00B71859 /* Debug */,
+				551F23F62B37F7CE00B71859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 551F23C22B37F7CC00B71859 /* Project object */;
+}
